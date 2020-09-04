@@ -1,0 +1,15 @@
+\\WAP to accept the First name , Middle Name and Last Name of a person and display full name  and Short Name (eq- Amar Kumar Singh-   A.K.S)
+#include<iostream>
+#include<string>
+using namespace std;
+int main(){
+    char a[100],b[100],c[100];
+    cout<<"Please enter your first name";
+    cin.getline(a,100);
+     cout<<"Please enter your middle name";
+    cin.getline(b,100);
+     cout<<"Please enter your last name";
+    cin.getline(c,100);
+    cout<<a<<" "<<b<<" "<<c<<"  "<<a[0]<<b[0]<<c[0]<<endl;
+   return 0;
+}
