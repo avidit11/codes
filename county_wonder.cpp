@@ -1,3 +1,4 @@
+//enter country name and output will be the wonder of that country.
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
